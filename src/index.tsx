@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import ReactDOM from 'react-dom';
-import App from './App';
 import {API} from "./config";
+import Routes from "./Routers";
 
 
 console.log(API)
@@ -12,7 +12,8 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    {/*<SelfRouters />*/}
+      <Routes />
   </React.StrictMode>
 );
 
